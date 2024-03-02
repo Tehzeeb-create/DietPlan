@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dark green stroke -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:color="#80B880"
+                android:width="2dp" />
+                <solid android:color="#247317" /> <!-- Background color (light green in this case) -->
+                <corners android:radius="16dp" /> <!-- Radius of the rounded corners -->
+        </shape>
+    </item>
+</layer-list>

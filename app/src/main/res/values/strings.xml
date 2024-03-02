@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DietPlan</string>
+    <string name="main_activity_title" />
+    <string name="signup_activity_title" />
+
+    <string name="recipe_1_prompt">Select Recipe 1</string>
+    <string name="recipe_2_prompt">Select Recipe 2</string>
+    <string name="recipe_3_prompt">Select Recipe 3</string>
+    <string name="recipe_4_prompt">Select Recipe 4</string>
+    <string name="recipe_5_prompt">Select Recipe 5</string>
+
+</resources>

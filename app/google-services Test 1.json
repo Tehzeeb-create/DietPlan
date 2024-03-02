@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302632330573",
+    "project_id": "fir-database-40d92",
+    "storage_bucket": "fir-database-40d92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302632330573:android:e7c879800c562a65cac304",
+        "android_client_info": {
+          "package_name": "com.mine.dietplan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtHkCUSt7KrDKNt5ug1fprKQhyAXV2o0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

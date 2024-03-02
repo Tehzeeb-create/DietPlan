@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "832944335633",
+    "firebase_url": "https://fir-da906-default-rtdb.firebaseio.com",
+    "project_id": "fir-da906",
+    "storage_bucket": "fir-da906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832944335633:android:c6253e172baf818b933ab0",
+        "android_client_info": {
+          "package_name": "com.example.studentdatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzU9rWsRBNhBkrz679yU0kNh032A7cVxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832944335633:android:3d725f2d43b700e1933ab0",
+        "android_client_info": {
+          "package_name": "com.mine.DietPlan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzU9rWsRBNhBkrz679yU0kNh032A7cVxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832944335633:android:1e708a1105f7b250933ab0",
+        "android_client_info": {
+          "package_name": "com.mine.dietplan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzU9rWsRBNhBkrz679yU0kNh032A7cVxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

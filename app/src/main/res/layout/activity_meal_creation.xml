@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MealCreationActivity"
+    android:background="@drawable/bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:id="@+id/mainlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <!-- Vertical Layout for Meal Form -->
+                <LinearLayout
+                    android:id="@+id/verticalLayoutmealForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:background="@drawable/rounded_corners"
+                    android:visibility="gone">
+
+                    <!-- Meal Name Input -->
+                    <EditText
+                        android:id="@+id/editTextmealName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Meal Name"
+                        android:inputType="text" />
+
+                    <!-- Deadline Date Input -->
+                    <DatePicker
+                        android:id="@+id/datePickerDeadline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <!-- Recipe 1 Spinner -->
+                    <Spinner
+                        android:id="@+id/spinnerRecipe1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:entries="@array/recipe_names"
+                        android:prompt="@string/recipe_1_prompt" />
+
+                    <!-- Recipe 2 Spinner -->
+                    <Spinner
+                        android:id="@+id/spinnerRecipe2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:entries="@array/recipe_names"
+                        android:prompt="@string/recipe_2_prompt" />
+
+                    <!-- Recipe 3 Spinner -->
+                    <Spinner
+                        android:id="@+id/spinnerRecipe3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:entries="@array/recipe_names"
+                        android:prompt="@string/recipe_3_prompt" />
+
+                    <!-- Recipe 4 Spinner -->
+                    <Spinner
+                        android:id="@+id/spinnerRecipe4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:entries="@array/recipe_names"
+                        android:prompt="@string/recipe_4_prompt" />
+
+                    <!-- Recipe 5 Spinner -->
+                    <Spinner
+                        android:id="@+id/spinnerRecipe5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:entries="@array/recipe_names"
+                        android:prompt="@string/recipe_5_prompt" />
+
+                    <!-- Save Button -->
+                    <Button
+                        android:id="@+id/btnSavemeal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Save"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/newgreen"/>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnAddmeal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Add"
+        android:background="@drawable/newgreen"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+</RelativeLayout>

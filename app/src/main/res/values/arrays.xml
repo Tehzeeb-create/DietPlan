@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ... other array resources ... -->
+
+    <array name="recipe_names">
+        <item>Cabbage</item>
+        <item>Olive Oil</item>
+        <item>Eggs</item>
+        <item>Avocado</item>
+        <item>Fish</item>
+        <item>Nuts</item>
+        <item>Yogurt</item>
+        <item>Butter</item>
+        <item>Grains</item>
+    </array>
+</resources>
